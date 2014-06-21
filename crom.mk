@@ -8,6 +8,8 @@ $(call inherit-product, device/samsung/i9300/full_i9300.mk)
 # Inherit some common C-RoM stuff.
 $(call inherit-product, vendor/crom/config/common_phone.mk)
 
+$(call inherit-product, vendor/crom/config/nfc_enhanced.mk)
+
 # Release name
 PRODUCT_RELEASE_NAME := i9300
 
